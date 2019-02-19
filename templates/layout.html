@@ -4,6 +4,13 @@ and using block to link to other portion of the page
 from different html files
 -->
 <html>
+<!-- linking our stylesheet "main.css" to our parent html file layout.html
+It has to be inside the "head"
+-->
+<head>
+    <title>Flask App</title>
+      <link rel="stylesheet" href="{{url_for('static', filename= 'css/main.css')}}">
+    </head>
   <body>
     <header>
       <div class="container">

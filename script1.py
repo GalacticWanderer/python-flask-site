@@ -23,3 +23,6 @@ def about():
 # running the app with debug mode
 if __name__ == "__main__":
     app.run(debug=True)
+
+# before you deploy any app or do any web projects, be sure to make a virtual
+# environment for python
